@@ -1,11 +1,14 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - prints a statement to std err
- * Return : 1 if the program executes properly
+ * main - the main program which prints the statement
+ *
+ * Return: 1 shows that the program executed properly
  */
 int main(void)
 {
-	fputs("and that piece of art is useful\"-Dora Korpar, 2015-10-19\n"), stdout;
+	fprintf(stderr, "%s", "and that piece of art is useful\"");
+	fprintf(stderr, "%s", " - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
+
