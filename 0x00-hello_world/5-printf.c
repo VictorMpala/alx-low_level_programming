@@ -1,9 +1,10 @@
 #include <stdio.h>
-/** main - prints a statement
+/**
+ * main - prints a statement
  * Return: 0 if the program executes properly
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
