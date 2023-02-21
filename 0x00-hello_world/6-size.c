@@ -2,7 +2,7 @@
 /**
  * main - entry point which prints sizes
  *
- *Return: 0 if the code executes properly
+ * Return: 0 if the code executes properly
  */
 int main(void)
 {
