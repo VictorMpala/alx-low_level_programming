@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char *to_print = "with proper grammar, but the outcome is a piece of art,\n";
-puts(to_print);
+char *to = "with proper grammar, but the outcome is a piece of art,\n";
+puts(to);
 return (0);
 }
