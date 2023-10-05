@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char *to_print = "Programming is like building a multilingual puzzle";
+char *to_print = "with proper grammar, but the outcome is a piece of art,\n";
 puts(to_print);
 return (0);
 }
