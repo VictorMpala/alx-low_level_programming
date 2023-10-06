@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - main fctn
- * @alpha: character variable
  * Return: 0(Succes)
  */
 int main(void)
