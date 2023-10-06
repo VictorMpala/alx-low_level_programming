@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-char alpha;
-for (alpha = 48; alpha <= 57; alpha++)
+int alpha;
+for (char(alpha) = 48; char(alpha) <= 57; char(alpha)++)
 {
 putchar(alpha);
 }
