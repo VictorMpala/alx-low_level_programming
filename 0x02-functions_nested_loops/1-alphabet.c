@@ -1,16 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - main fctn
- * Return: 0(Succes)
- */
-int main(void)
+*print_alphabet - function that print alphabet
+*it prints in lowercase
+*Return: no return
+*/
+void print_alphabet(void)
 {
-char alpha;
-for (alpha = 'a'; alpha <= 'z'; alpha++)
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar(alpha);
+_putchar (letter);
 }
-_putchar('\n');
-return (0);
+_putchar (10);
 }
